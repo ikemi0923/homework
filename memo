@@ -1,0 +1,11 @@
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: auto;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30%;
+  display:table;
+}
