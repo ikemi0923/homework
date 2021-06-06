@@ -56,9 +56,13 @@ header{
   color: white;
 }
 
-h2{
+h{
   padding-top: 20px;
   text-align: center;
+}
+
+h2{
+  text-align:center
 }
 
 
@@ -83,7 +87,8 @@ h2{
 }
 
 .ort >img{
-  width: 100%;
+  width: 90%;
+  padding: 10%;
 }
 
 .ort_description{
@@ -100,7 +105,7 @@ h2{
 .youtube{
   padding: 0;
   display: block;
-  margin: 0 auto;
+  margin: auto;
   max-width: auto;
 }
 
@@ -116,14 +121,26 @@ h3{
 }
 
 .sns > ul{
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* margin-right: 30px; */
+  font-size: 20px;
 }
 
 .sns > ul > li{
-  margin: 20px;
+  margin: 15px;
+  /* padding: 20px; */
 }
 
 p{
   text-align:center
+}
+
+form{
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
 }
